@@ -1,2 +1,0 @@
-CICD = "CICD_"
-DEV = "DEV_"
