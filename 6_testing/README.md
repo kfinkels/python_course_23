@@ -1,16 +1,26 @@
 # **Getting started**
 
-create virtualenv: `virtualenv -p python3 venv`
+Create virtual env:
 
-activate the virtualenv: `source venv/bin/activate`
+```
+virtualenv -p python3 env
+source env/bin/activate
+```
 
-install requirements: <br>
-`pip3 install -r requirements.txt` <br>
-`pip3 install -r dev.txt`
+Install poetry and dependencies:
 
-run application from `5_pet_store` section
+```
+pip install poetry
+poetry install
+```
 
-run tests: `pytest`
+Run the server:
+
+`poetry run start`
+
+Run tests: 
+
+`pytest`
 
 # **Exercises**
 
