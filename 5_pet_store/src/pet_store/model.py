@@ -13,7 +13,7 @@ class PetModel(Base):
     __tablename__ = 'pets'
 
     id = Column(Integer(), primary_key=True)
-    name = Column(String(50), unique=True)
+    name: str = Column(String(50), unique=True)
     animal_type = Column(String(50))
     created = Column(DateTime())
 
