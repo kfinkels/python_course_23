@@ -5,7 +5,7 @@ from sqlalchemy.orm.session import Session
 from sqlalchemy.orm.exc import NoResultFound
 
 # Application imports
-from src.models import Account, User, Transaction
+from db_code.models import Account, User, Transaction
 
 
 def get_user(username: str, session: Session) -> User:

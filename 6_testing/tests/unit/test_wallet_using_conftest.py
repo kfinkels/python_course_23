@@ -1,6 +1,6 @@
 import pytest
 
-from wallet import InsufficientAmount
+from src.wallet import InsufficientAmount
 
 
 def test_default_initial_amount(empty_wallet):

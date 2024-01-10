@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pet-store"
+version = "0.1.0"
+description = "This is a CRUD app for a pet store"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [ { include = "*.py", from = "src" } ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.108.0"
+httpx = "^0.26.0"
+uvicorn = "^0.25.0"
+sqlalchemy = "^2.0.25"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+mock = "*"
+pytest-html = "*"
+pytest-cov = "*"
+pycodestyle = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "pet_store.main:start"

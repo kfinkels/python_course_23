@@ -1,6 +1,6 @@
-from mock import patch, MagicMock
+from mock import patch
 
-from file_explorer import create_dir, MyError
+from src.file_explorer import create_dir, MyError
 
 
 # using context manager (with)

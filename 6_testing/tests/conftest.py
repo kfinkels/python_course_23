@@ -1,6 +1,6 @@
 import pytest
 
-from wallet import Wallet
+from src.wallet import Wallet
 
 
 @pytest.fixture

@@ -43,5 +43,5 @@ Run the server:
 3. Implement delete pet by ID
 4. Implement get all pets created after DATE
 5. Change animal_type to one of (enum)
-6. Disallow pet from the same name and same type (hint: use application exception)
+6. Disallow pet from the same name and same type (hint: use exception)
 

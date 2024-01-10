@@ -1,6 +1,6 @@
 import pytest
 
-from wallet import Wallet, InsufficientAmount
+from src.wallet import Wallet, InsufficientAmount
 
 
 @pytest.fixture

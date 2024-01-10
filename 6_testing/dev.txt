@@ -1,6 +1,0 @@
-pytest
-mock
-pytest-html
-pytest-cov
-pycodestyle
-

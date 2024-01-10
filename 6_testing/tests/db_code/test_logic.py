@@ -2,8 +2,12 @@ import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from src.core import get_user, get_accounts_by_user, compute_balance, debit
-from src.models import Base, User, Account, UserAccount, Transaction
+from db_code.core import get_user, get_accounts_by_user, compute_balance, debit
+from db_code.models import Base, User, Account, UserAccount
+
+
+# from db_code import get_user, get_accounts_by_user, compute_balance, debit
+# from db_code import Base, User, Account, UserAccount
 
 
 @pytest.fixture(scope='function')
