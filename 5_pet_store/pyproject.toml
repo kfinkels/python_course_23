@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pet-store"
+version = "0.1.0"
+description = "This is a CRUD app for a pet store"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "pet_store", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+sqlalchemy = "^2.0.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
